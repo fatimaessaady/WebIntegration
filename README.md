@@ -141,7 +141,7 @@ Le serveur écoute sur le port 9002 et expose le WSDL avec les opérations:
 ## ✅ Client ElectroShop
 Test des fonctionnalités analytiques.
 
-<img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/34110dcc-cde3-44bf-b867-c5231961f84d" />
+<img width="1466" height="233" alt="image" src="https://github.com/user-attachments/assets/e6556403-8f5b-4491-b2cb-bfe645131dae" />
 
 
  Comment exécuter
