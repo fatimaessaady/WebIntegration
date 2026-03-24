@@ -68,7 +68,7 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
 
-\## ✅ Résultats
+✅ Résultats
 
 
 
@@ -92,7 +92,7 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
 
-\## 🛠️ Technologies utilisées
+ Technologies utilisées
 
 \- \*\*Java 23\*\* - Langage de programmation
 
@@ -124,11 +124,11 @@ Test des opérations bancaires sur les comptes.
 <img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/ce86c630-120d-458d-8c52-9c91db833d49" />
 
 
-\## 🚀 Comment exécuter
+ Comment exécuter
 
 
 
-\### Démarrer le serveur
+Démarrer le serveur
 
 ```bash
 
