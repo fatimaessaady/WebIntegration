@@ -1,18 +1,15 @@
-\# TP4 - Web Services SOAP
+TP4 - Web Services SOAP
 
 
 
-\## 👩‍💻 Auteur
+
 
 Fatima Essaady
 
 
 
 \---
-
-
-
-\## 📋 Description
+📋 Description
 
 Ce projet implémente un \*\*Web Service SOAP\*\* de calculatrice avec les opérations arithmétiques de base:
 
@@ -43,8 +40,9 @@ L'architecture suit le modèle \*\*client/serveur\*\* avec \*\*JAX-WS\*\*.
 Le serveur écoute sur le port 9000 et expose le WSDL.
 
 
+<img width="1919" height="606" alt="serveur" src="https://github.com/user-attachments/assets/151bcd75-5848-4fe1-88cd-87f98fed4d9e" />
 
-!\[Serveur SOAP](screenshots/serveur.png)
+
 
 
 
@@ -57,8 +55,8 @@ Le serveur écoute sur le port 9000 et expose le WSDL.
 Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
+<img width="1222" height="274" alt="client" src="https://github.com/user-attachments/assets/884716e6-6653-4fc8-b628-6e12c45960c4" />
 
-!\[Client SOAP](screenshots/client.png)
 
 
 
