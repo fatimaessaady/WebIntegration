@@ -50,7 +50,7 @@ Le serveur écoute sur le port 9000 et expose le WSDL.
 
 
 
-\### 2. Client Java
+ 2. Client Java
 
 Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
@@ -60,7 +60,7 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
 
-\*Le client teste les 4 opérations et la division par zéro.\*
+\*Le client teste les 4 opérations et la division par zéro.
 
 
 
@@ -117,16 +117,16 @@ Le serveur écoute sur le port 9001 et expose le WSDL.
 <img width="1918" height="771" alt="Screenshot 2026-03-24 232000" src="https://github.com/user-attachments/assets/36050aa7-817c-4251-a992-2cc534beefb1" />
 
 
-*Le fichier WSDL du service Banque avec les opérations: consulterSolde, retirer, deposer, getCompte.*
+Le fichier WSDL du service Banque avec les opérations: consulterSolde, retirer, deposer, getCompte.
 
 ✅ Client Banque
 Test des opérations bancaires sur les comptes.
 <img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/ce86c630-120d-458d-8c52-9c91db833d49" />
 
 
-# 📁 Partie 3: ElectroShop SOAP
+ Partie 3: ElectroShop SOAP
 
-## 🖥️ Serveur ElectroShop
+🖥️ Serveur ElectroShop
 Le serveur écoute sur le port 9002 et expose le WSDL avec les opérations:
 - ajouterVente - Ajouter une vente
 - consulterCA - Calculer le chiffre d'affaires
@@ -136,9 +136,9 @@ Le serveur écoute sur le port 9002 et expose le WSDL avec les opérations:
 <img width="1907" height="536" alt="Screenshot 2026-03-24 234127" src="https://github.com/user-attachments/assets/5ffd82ce-a10f-42f9-8f90-2e78c31d48af" />
 
 
-*Serveur démarré avec 10 ventes de test initialisées.*
+Serveur démarré avec 10 ventes de test initialisées.
 
-## ✅ Client ElectroShop
+ Client ElectroShop
 Test des fonctionnalités analytiques.
 
 <img width="1466" height="233" alt="image" src="https://github.com/user-attachments/assets/e6556403-8f5b-4491-b2cb-bfe645131dae" />
