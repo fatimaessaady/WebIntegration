@@ -124,6 +124,26 @@ Test des opérations bancaires sur les comptes.
 <img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/ce86c630-120d-458d-8c52-9c91db833d49" />
 
 
+# 📁 Partie 3: ElectroShop SOAP
+
+## 🖥️ Serveur ElectroShop
+Le serveur écoute sur le port 9002 et expose le WSDL avec les opérations:
+- ajouterVente - Ajouter une vente
+- consulterCA - Calculer le chiffre d'affaires
+- topProduits - Retourner les meilleurs produits
+- predireVentes - Prédiction par régression linéaire
+
+<img width="1907" height="536" alt="Screenshot 2026-03-24 234127" src="https://github.com/user-attachments/assets/5ffd82ce-a10f-42f9-8f90-2e78c31d48af" />
+
+
+*Serveur démarré avec 10 ventes de test initialisées.*
+
+## ✅ Client ElectroShop
+Test des fonctionnalités analytiques.
+
+<img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/34110dcc-cde3-44bf-b867-c5231961f84d" />
+
+
  Comment exécuter
 
 
