@@ -109,6 +109,20 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 \---
 
 
+ Partie 2: Banque SOAP
+
+🖥️ Serveur Banque
+Le serveur écoute sur le port 9001 et expose le WSDL.
+
+<img width="1918" height="771" alt="Screenshot 2026-03-24 232000" src="https://github.com/user-attachments/assets/36050aa7-817c-4251-a992-2cc534beefb1" />
+
+
+*Le fichier WSDL du service Banque avec les opérations: consulterSolde, retirer, deposer, getCompte.*
+
+✅ Client Banque
+Test des opérations bancaires sur les comptes.
+<img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/ce86c630-120d-458d-8c52-9c91db833d49" />
+
 
 \## 🚀 Comment exécuter
 
@@ -121,4 +135,9 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 cd TP4/calculatrice-soap
 
 mvn exec:java -Dexec.mainClass="org.example.ws.ServeurSOAP"
+
+
+
+
+
 
