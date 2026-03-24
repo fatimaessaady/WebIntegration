@@ -1,0 +1,12 @@
+org\example\ws\AddResponse.class
+org\example\ws\Multiply.class
+org\example\ws\ObjectFactory.class
+org\example\ws\CalculatriceImpService.class
+org\example\ws\ICalculatrice.class
+org\example\ws\package-info.class
+org\example\ws\Divide.class
+org\example\ws\DivideResponse.class
+org\example\ws\Add.class
+org\example\ws\MultiplyResponse.class
+org\example\ws\SubtractResponse.class
+org\example\ws\Subtract.class
