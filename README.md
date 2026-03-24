@@ -144,17 +144,8 @@ Test des fonctionnalités analytiques.
 <img width="1466" height="233" alt="image" src="https://github.com/user-attachments/assets/e6556403-8f5b-4491-b2cb-bfe645131dae" />
 
 
- Comment exécuter
 
 
-
-Démarrer le serveur
-
-```bash
-
-cd TP4/calculatrice-soap
-
-mvn exec:java -Dexec.mainClass="org.example.ws.ServeurSOAP"
 
 
 
