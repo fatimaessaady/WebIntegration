@@ -1,18 +1,15 @@
-\# TP4 - Web Services SOAP
+TP4 - Web Services SOAP
 
 
 
-\## 👩‍💻 Auteur
+
 
 Fatima Essaady
 
 
 
 \---
-
-
-
-\## 📋 Description
+📋 Description
 
 Ce projet implémente un \*\*Web Service SOAP\*\* de calculatrice avec les opérations arithmétiques de base:
 
@@ -43,8 +40,9 @@ L'architecture suit le modèle \*\*client/serveur\*\* avec \*\*JAX-WS\*\*.
 Le serveur écoute sur le port 9000 et expose le WSDL.
 
 
+<img width="1919" height="606" alt="serveur" src="https://github.com/user-attachments/assets/151bcd75-5848-4fe1-88cd-87f98fed4d9e" />
 
-!\[Serveur SOAP](screenshots/serveur.png)
+
 
 
 
@@ -57,8 +55,8 @@ Le serveur écoute sur le port 9000 et expose le WSDL.
 Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
+<img width="1222" height="274" alt="client" src="https://github.com/user-attachments/assets/884716e6-6653-4fc8-b628-6e12c45960c4" />
 
-!\[Client SOAP](screenshots/client.png)
 
 
 
@@ -70,7 +68,7 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
 
-\## ✅ Résultats
+✅ Résultats
 
 
 
@@ -94,7 +92,7 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 
 
 
-\## 🛠️ Technologies utilisées
+ Technologies utilisées
 
 \- \*\*Java 23\*\* - Langage de programmation
 
@@ -111,16 +109,35 @@ Le client envoie des requêtes SOAP au serveur et affiche les résultats.
 \---
 
 
+ Partie 2: Banque SOAP
 
-\## 🚀 Comment exécuter
+🖥️ Serveur Banque
+Le serveur écoute sur le port 9001 et expose le WSDL.
+
+<img width="1918" height="771" alt="Screenshot 2026-03-24 232000" src="https://github.com/user-attachments/assets/36050aa7-817c-4251-a992-2cc534beefb1" />
+
+
+*Le fichier WSDL du service Banque avec les opérations: consulterSolde, retirer, deposer, getCompte.*
+
+✅ Client Banque
+Test des opérations bancaires sur les comptes.
+<img width="964" height="229" alt="Screenshot 2026-03-24 232144" src="https://github.com/user-attachments/assets/ce86c630-120d-458d-8c52-9c91db833d49" />
+
+
+ Comment exécuter
 
 
 
-\### Démarrer le serveur
+Démarrer le serveur
 
 ```bash
 
 cd TP4/calculatrice-soap
 
 mvn exec:java -Dexec.mainClass="org.example.ws.ServeurSOAP"
+
+
+
+
+
 
